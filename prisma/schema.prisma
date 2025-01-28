@@ -29,8 +29,20 @@ model User {
   ratings  BlogRating[]
 
   likes    Like[]
-
+  // following Follow[] @relation("UserFollows")
+  // followers Follow[] @relation("UserFollowed")
 }
+
+// model Follow {
+  // id          Int @id @default(autoincrement())
+  // followerId  Int
+  // followingId Int
+
+  // follower    User @relation("UserFollows", fields: [followerId], references: [id])
+  // following   User @relation("UserFollowed", fields: [followingId], references: [id])
+
+  // @@unique([followerId, followingId])
+// }
 
 model Blog {
   id       Int          @id @default(autoincrement())
