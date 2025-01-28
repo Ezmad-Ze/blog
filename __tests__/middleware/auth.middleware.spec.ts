@@ -1,7 +1,7 @@
 import request from 'supertest';
 import express, { Request, Response } from 'express';
 import jwt from 'jsonwebtoken';
-import { authMiddleware } from '../../middleware/auth.middleware'; // Adjust your import path
+import { authMiddleware } from '../../middleware/auth.middleware'; 
 
 describe('authMiddleware', () => {
   let app: express.Express;
