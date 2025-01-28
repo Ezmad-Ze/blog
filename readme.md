@@ -16,11 +16,11 @@ Blog for Interview
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/username/repo-name.git
+   git clone https://github.com/username/blog.git
    ```
 2. Navigate into the project directory:
    ```bash
-   cd repo-name
+   cd blog
    ```
 3. Install dependencies:
    ```bash
