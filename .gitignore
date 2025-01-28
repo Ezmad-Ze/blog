@@ -1,0 +1,53 @@
+# ------------------------------
+# Node & General
+# ------------------------------
+node_modules
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log*
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# TypeScript
+# ------------------------------
+# Build output
+dist
+build
+
+# TS cache
+*.tsbuildinfo
+
+# ------------------------------
+# Prisma
+# ------------------------------
+.prisma
+node_modules/.prisma
+
+# If you're using migrations, you usually keep them in the repo,
+# but you might ignore the local dev database migrations if you prefer
+# For example:
+# prisma/migrations/dev.db
+
+# ------------------------------
+# Env & Secrets
+# ------------------------------
+.env
+.env.local
+.env.*.local
+
+# ------------------------------
+# IDE / Editor
+# ------------------------------
+.vscode
+.idea
+*.swp
+*.swo
